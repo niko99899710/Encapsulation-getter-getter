@@ -24,9 +24,10 @@ public class Gamer {
     }
 
     public void setActive(boolean active) {
-        isActive = active;
+      //  if (active == true) {
+            this.isActive = active;
+      //  }
     }
-
     @Override
     public String toString() {
         return "Gamer{" +
